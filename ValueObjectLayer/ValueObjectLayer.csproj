@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB85E23C-6E8F-4C03-97E3-952ED017E745}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Steto.ValueObjectLayer</RootNamespace>
+    <AssemblyName>Steto.ValueObjectLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cadastro\Cliente.cs" />
+    <Compile Include="Cadastro\Funcionario.cs" />
+    <Compile Include="CarregarPerfil.cs" />
+    <Compile Include="Empresa.cs" />
+    <Compile Include="Endereco\Logradouro.cs" />
+    <Compile Include="Endereco\Bairro.cs" />
+    <Compile Include="Endereco\Cidade.cs" />
+    <Compile Include="Endereco\Estado.cs" />
+    <Compile Include="CBO.cs" />
+    <Compile Include="CEP.cs" />
+    <Compile Include="ConfigurarPerfilModulo.cs" />
+    <Compile Include="Contato.cs" />
+    <Compile Include="Estoque\Estoque.cs" />
+    <Compile Include="Estoque\Fornecedor.cs" />
+    <Compile Include="Estoque\Nota.cs" />
+    <Compile Include="Estoque\Produto.cs" />
+    <Compile Include="Estoque\MovimentacaoEstoque.cs" />
+    <Compile Include="Estoque\Solicitacao.cs" />
+    <Compile Include="Estoque\ProdutoNota.cs" />
+    <Compile Include="isCep.cs" />
+    <Compile Include="Auditoria.cs" />
+    <Compile Include="Logradouro.cs" />
+    <Compile Include="SubMenu.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Paciente.cs" />
+    <Compile Include="Endereco\Pais.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Perfil_Usuario.cs" />
+    <Compile Include="Perfil.cs" />
+    <Compile Include="Permissao.cs" />
+    <Compile Include="Permissao_Funcionalidade.cs" />
+    <Compile Include="Funcionalidade.cs" />
+    <Compile Include="Modulo.cs" />
+    <Compile Include="Perfil_Permissao_Funcionalidade.cs" />
+    <Compile Include="Perfil_Modulo.cs" />
+    <Compile Include="Email.cs" />
+    <Compile Include="Email_Tipo.cs" />
+    <Compile Include="Tentativa.cs" />
+    <Compile Include="TipoEndereco.cs" />
+    <Compile Include="TipoLogradouro.cs" />
+    <Compile Include="Usuario.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cartorio\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

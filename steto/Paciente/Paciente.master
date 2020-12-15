@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Steto.Master" AutoEventWireup="true" CodeBehind="Paciente.master.cs" Inherits="Steto.Paciente.Paciente" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="header">
+        <div class="header">
+            <h2>
+                    <asp:Label ID="lblTitulo" runat="server" 
+                    Text="Paciente" style="color: #FFFFFF"></asp:Label>
+            </h2>
+            
+        </div>
+
+        <asp:Menu ID="tabMenu" runat="server" CssClass="menu" Orientation="Horizontal" OnMenuItemClick="tabMenu_MenuItemClick">
+            <Items>
+                <asp:MenuItem Text="Identificação" Value="Info" />
+                <asp:MenuItem Text="Anaminese e evoluções" Value="anamineseEvolucoes" />
+                <asp:MenuItem Text="Guias" Value="Guias" />
+            </Items>
+
+        </asp:Menu>
+        </div>
+    <asp:ContentPlaceHolder id= "ContentPlaceHolder2" runat= "server" />
+</asp:Content>

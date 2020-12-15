@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Paciente/Filho.master" AutoEventWireup="true" CodeBehind="filho2.master.cs" Inherits="Steto.Paciente.filho2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ChildContent1" runat="server">
+    <asp:Label runat= "server" id = "Label1" 
+         text = "Criança label1" font-bold = "true" />
+    <br />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ChildContent2" runat="server">
+    <asp:Label runat= "server" id = "Label2" 
+         text = "Criança label2" font-bold = "true" />
+    <br />
+</asp:Content>

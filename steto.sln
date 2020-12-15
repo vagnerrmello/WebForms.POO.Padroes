@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{EC3B3DC5-D55E-48AF-9823-3F9BA26B9D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{FE64017C-F9A0-440C-A856-448C916F1005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeLayer", "FacadeLayer\FacadeLayer.csproj", "{48E542BF-9E36-4A20-9135-BF501D481189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueObjectLayer", "ValueObjectLayer\ValueObjectLayer.csproj", "{EB85E23C-6E8F-4C03-97E3-952ED017E745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{22045463-00AF-40EA-B374-949A338C4FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steto", "steto\Steto.csproj", "{5635CC3F-6D15-4FD3-9421-E86CC4084D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amago.Android", "Amago.Android\Amago.Android.csproj", "{C0898AA2-4443-44D1-A9CF-850FB2C64E0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC3B3DC5-D55E-48AF-9823-3F9BA26B9D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3B3DC5-D55E-48AF-9823-3F9BA26B9D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3B3DC5-D55E-48AF-9823-3F9BA26B9D70}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3B3DC5-D55E-48AF-9823-3F9BA26B9D70}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FE64017C-F9A0-440C-A856-448C916F1005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE64017C-F9A0-440C-A856-448C916F1005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE64017C-F9A0-440C-A856-448C916F1005}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE64017C-F9A0-440C-A856-448C916F1005}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{48E542BF-9E36-4A20-9135-BF501D481189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E542BF-9E36-4A20-9135-BF501D481189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E542BF-9E36-4A20-9135-BF501D481189}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E542BF-9E36-4A20-9135-BF501D481189}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EB85E23C-6E8F-4C03-97E3-952ED017E745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB85E23C-6E8F-4C03-97E3-952ED017E745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB85E23C-6E8F-4C03-97E3-952ED017E745}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB85E23C-6E8F-4C03-97E3-952ED017E745}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{22045463-00AF-40EA-B374-949A338C4FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22045463-00AF-40EA-B374-949A338C4FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22045463-00AF-40EA-B374-949A338C4FCD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{22045463-00AF-40EA-B374-949A338C4FCD}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5635CC3F-6D15-4FD3-9421-E86CC4084D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5635CC3F-6D15-4FD3-9421-E86CC4084D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5635CC3F-6D15-4FD3-9421-E86CC4084D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5635CC3F-6D15-4FD3-9421-E86CC4084D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0898AA2-4443-44D1-A9CF-850FB2C64E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0898AA2-4443-44D1-A9CF-850FB2C64E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0898AA2-4443-44D1-A9CF-850FB2C64E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0898AA2-4443-44D1-A9CF-850FB2C64E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

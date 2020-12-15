@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Paciente/Pai.Master" AutoEventWireup="true" CodeBehind="Filho.master.cs" Inherits="Steto.Paciente.Filho" %>
+    <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    </asp:Content>
+    <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+        <asp:panel runat= "server" id= "panelMain" backcolor= "lightyellow">
+            <h2>Mestre</h2>
+            <asp:panel runat= "server" id= "panel1" backcolor= "lightblue">
+            <p> Este é o conteúdo principal da criança. </p>
+            <asp:ContentPlaceHolder id= "ChildContent1" runat= "server" />
+            </asp:panel>
+            <asp:panel runat= "server" id= "panel2" backcolor= "pink">
+            <p> Este é o conteúdo principal da criança. </p>
+            <asp:ContentPlaceHolder id= "ChildContent2" runat= "server" />
+            </asp:panel>
+            <br />
+        </asp:panel>
+    </asp:Content>

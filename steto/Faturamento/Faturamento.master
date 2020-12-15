@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Steto.Master" AutoEventWireup="true" CodeBehind="Faturamento.master.cs" Inherits="Steto.Faturamento.Faturamento" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <asp:ContentPlaceHolder id= "HeadFaturamentoContent" runat= "server" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
+                <div class="header">
+                    <h2>
+                         <asp:Label ID="lblTitulo" runat="server" 
+                            Text=" Módulo Faturamento do VStet" style="color: #FFFFFF"></asp:Label>
+                    </h2>
+            
+                    <div>
+                        <asp:Menu ID="Menu2" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                        </asp:Menu>
+                    </div>
+                </div>
+
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainFaturamentoContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+</asp:Content>
